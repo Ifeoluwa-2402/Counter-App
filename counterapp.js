@@ -13,14 +13,11 @@ let count = 0;
             document.getElementById('save-el').textContent =  "Previous entries: ";
         };
 
-
         let welcomeIf = document.getElementById('welcome-if');
         let name = "Ifeoluwa";
         let greeting = "Welcome to the counter app, ";
         welcomeIf.innerText = greeting + name;
         welcomeIf.innerText += "👋";
-
-
 
         let saveEl = document.getElementById('save-el');
         function save() {
