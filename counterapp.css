@@ -1,85 +1,82 @@
 *{
             padding: 0;
             margin: 0;
-        }
-        body{
-            background-color: rgb(148, 148, 148);
-            font-family: 'Courier New', Courier, monospace;
-            box-sizing: border-box;
-        }
-        .container{
-            position: relative;
-            box-sizing: border-box;
-            width: 40%;
-            margin: 105px auto;
-            text-align: center;
-            border: rgb(122, 120, 120) solid 2px;
-            background: rgb(122, 120, 120);
-            border-radius: 30px 0px 30px 10px;
-            filter: drop-shadow(1px 0px 10px rgb(31, 30, 30));
-            padding-bottom: 15px;
-        }
-        h1{
-            font-size: 13rem;
-            color: black;
-        }
-        .btn{
-            padding: 10px 20px;
-            gap: 30px;
-            border-radius: 10px 20px;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;    
-        }
-        .btn1{
-            background-color: rgb(4, 75, 4);
-            color: #fff;
-            font-size: 1.2rem;
-            border: 2px solid rgb(2, 50, 2);
-            box-shadow: 1px 0px 10px rgb(31, 30, 30);
-        }
-        .btn2{
-            background-color: rgb(4, 11, 75);
-            color: #fff;
-            font-size: 1.2rem;
-            border: 2px solid rgb(2, 7, 50);
-            box-shadow: 1px 0px 10px rgb(31, 30, 30);
-        }
-        .btn3{
-            background-color: rgb(75, 4, 4);
-            color: #fff;
-            font-size: 1.2rem;
-            border: 2px solid rgb(47, 3, 3);
-            box-shadow: 1px 0px 10px rgb(31, 30, 30);
-        }
-        .btn4{
-            background-color: rgb(70, 3, 65);
-            color: #fff;
-            font-size: 1.2rem;
-            border: 2px solid rgb(12, 0, 11);
-            box-shadow: 1px 0px 10px rgb(31, 30, 30);
-            flex-grow: 0.8;
-        }
-    
-
-        @media screen and (max-width: 768px) {
-            .container{
-                width: 80%;
-                margin: 105px auto;
-            }
-            .btn{
-            padding: 10px 20px;
-            gap: 25px;
-            flex-direction: column;  
-        }
-        #count-display{
-            box-sizing: border-box;
-            font-size: 10em;
-        }
+}
+body{
+    background-color: rgb(148, 148, 148);
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    box-sizing: border-box;
+    width: 40%;
+    margin: 105px auto;
+    text-align: center;
+    border: rgb(122, 120, 120) solid 2px;
+    background: rgb(122, 120, 120);
+    border-radius: 30px 0px 30px 10px;
+    filter: drop-shadow(1px 0px 10px rgb(31, 30, 30));
+    padding-bottom: 15px;
+}
+h1{
+    font-size: 13rem;
+    color: black;
+}
+.btn{
+    padding: 10px 20px;
+    gap: 30px;
+    border-radius: 10px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+.btn1{
+    background-color: rgb(4, 75, 4);
+    color: #fff;
+    font-size: 1.2rem;
+    border: 2px solid rgb(2, 50, 2);
+    box-shadow: 1px 0px 10px rgb(31, 30, 30);
+}
+.btn2{
+    background-color: rgb(4, 11, 75);
+    color: #fff;
+    font-size: 1.2rem;
+    border: 2px solid rgb(2, 7, 50);
+    box-shadow: 1px 0px 10px rgb(31, 30, 30);
+}
+.btn3{
+    background-color: rgb(75, 4, 4);
+    color: #fff;
+    font-size: 1.2rem;
+    border: 2px solid rgb(47, 3, 3);
+    box-shadow: 1px 0px 10px rgb(31, 30, 30);
+}
+.btn4{
+    background-color: rgb(70, 3, 65);
+    color: #fff;
+    font-size: 1.2rem;
+    border: 2px solid rgb(12, 0, 11);
+    box-shadow: 1px 0px 10px rgb(31, 30, 30);
+    flex-grow: 0.8;
+}
+.save{
+    font-weight: 800;
+    padding: 20px;
+    font-size: 1.4rem;
+}
+@media screen and (max-width: 768px) {
+    .container{
+        width: 80%;
+        margin: 105px auto;
     }
-
-    .save{
-        font-weight: 800;
-        padding: 20px;
-        font-size: 1.4rem;
+    .btn{
+        padding: 10px 20px;
+        gap: 25px;
+        flex-direction: column;  
     }
+    #count-display{
+        box-sizing: border-box;
+        font-size: 10em;
+    }
+}
